@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Page</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+    <header class="header">
+        
+    <nav id="nav-bar" class="navbar">
+            <a href="#home" class="fas fa-home">Home</a>
+            <a href="#featured" class="fas fa-heart">Lifestyle</a>
+            <a href="#arrivals" class="fas fa-book">Academic</a>
+            <a href="#reviews" class="fas fa-info">Info</a>
+            <a href="#blogs" class="fas fa-phone">Contact</a>
+        </nav>
+    </header>
+    <body>
+   <div class="card">
+          <div class="inner-box" id="card">
+              <div class="card-front">
+              <h2>LOGIN</h2><p style="border-bottom: 2px solid "></p><br>
+              <form method="post">
+                   <p>First Name  <input type="text" id="name1" name="username1st" class="input-box"  placeholder="Enter Your First name" ></p> 
+                  <p>Second Name  <input type="text" id="name2" name="username2nd" class="input-box"  placeholder="Enter Your Second name"></p> 
+                  <p>Date of Birth  <input type="date" id="birthday" name="birthday" style="width: 190px;font-size: 150%;font-family: monospace;font-weight: 600;cursor: pointer"></p>
+                  <p>Age  <input type="text" name="age" class="input-box"  placeholder="Enter Your Age" ></p>  
+           <p>Select your Branch  
+           <select id="ddm" name="dropdownmenu"  tabindex="0" title="Select" style="width: 190px;font-size: 150%;font-family: monospace;font-weight: 600;cursor: pointer">
+                                     <div class="opt"><option selected="selected" value="srch">select</option>
+                                        <option value="srch ec">Electronics Engineering</option>
+                                        <option value="srch Cs">Computer Science Engineering</option>
+                                        <option value="srch it">Informational technology</option>
+                                        <option value="srch mi">Mining Engineering</option>
+                                     </div>
+        </select>
+           </p>
+       <p style="border-bottom: 1px solid "></p>
+                  <p>Email ID  <input type="text" id="email" name="Email ID" class="input-box"  placeholder="Enter Your Email ID" ></p> 
+                  <p>Contact number <input type="text" name="Contact number" id="number" class="input-box"  placeholder="Enter Your Contact number"></p>
+                  <p>Password  <input type="password" id="password" name="password" class="input-box"  placeholder="Enter Your Password"></p>
+        <p style="border-bottom: 1px solid "></p>
+                
+                <label for="html">Basic <input type="radio" id="basic" name="level" value="Basic"></label>
+                
+                <label for="css">Intermediate <input type="radio" id="intermediate" name="level" value="Intermediate"></label>
+                
+                <label for="javascript">Expert <input type="radio" id="expert" name="level" value="Expert"></label><br><br><br>
+                 <p>Select your known programming languages</p> 
+                <label for="html">HTML <input type="checkbox" id="html" name="fav_language" value="HTML"></label>
+                
+                <label for="css">CSS <input type="checkbox" id="css" name="fav_language" value="CSS"></label>
+                
+                <label for="javascript">JavaScript <input type="checkbox" id="javascript" name="fav_language" value="JavaScript"></label> 
+       
+            <p style="border-bottom: 2px solid "></p><br>
+       <input type="button" name="submitbtn" value="Submit" style="font-size: 150%;font-family: monospace;font-weight: 600;color: black;width: 80px;height: 30px;background-color: cornsilk;border-radius: 10px;cursor: pointer">
+                  </form>
+                  
+          </div> </div></div>
+    </body>
+</html>

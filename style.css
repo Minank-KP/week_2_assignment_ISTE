@@ -1,0 +1,102 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+ }
+           html{background-image: url("back.jpg");background-color: azure;}
+.header{background-color: darkslateblue;height: 100px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;box-shadow: 10px 20px 20px;}
+nav{
+    text-align: center;
+    padding-top: 20px;
+   } 
+ a{ background-color: cornsilk;
+    color:black;
+    display: inline-block;
+    padding:1.2rem;
+    font-size: 1.7rem;
+    text-decoration-line: none;
+     font-weight: 800;
+    font-size: 25px;
+   border-bottom-right-radius: 20px;border-top-left-radius: 20px;
+     box-shadow: 10px 20px 20px;
+     height: 50px;
+     padding-top: 2px;
+    padding: 5px;
+     text-align: center;
+}
+.card input{}
+.card{
+    width: 430px;
+    height: 500px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0.26);
+    perspective: 1000px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    align-content: center;width: 100%;height: 700px; padding-left: 300px;padding-right: 300px;padding-top: 100px;
+    }
+.inner-box{position: relative;
+           width: 100%;
+           height: 100%;
+          transform-style: preserve-3d;
+          transition: transform 1s;
+ }
+.input-box{width: 80%;
+background: rgba(255,255,255,0.5);
+border: 2px solid black;
+margin: 6px 0;
+height: 32px;
+border-radius: 20px;
+opacity: 100%;
+padding: 0 10px;
+box-sizing: border-box;
+outline: none;
+text-align: center;
+color: black;
+    font-size: 18px;
+}
+.card-front{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-position: center;
+    background-size: cover;
+    background: lightblue;
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    box-shadow:  10px 20px 20px;
+    border-radius: 50px;
+    }
+.card-front button{background-color: lavenderblush;color: black;font-size: 20px;width: 250px;}
+.card h2{font-weight: normal;
+       font-size: 35px;
+        text-align: center;
+    margin-bottom: 20px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    color: darkblue;
+    }
+           label{display: inline-block;padding-left: 80px;font-weight: 600;justify-content:  no-space;}         
+g{display: inline-block;align-content: center;}
+p{display: flex;padding-left: 0px;align-items: center;font-weight: 700;}
+B{display: flex;align-items: center;}
+ai{font-size: 50px;font-family: cursive;font-weight: 700;color: black;}
+dg{color: white;font-size: 17px; }
+button{width: 100%;
+background: transparent;
+border: 1px solid #fff;
+margin: 35px 0 10px;
+height: 32px;
+font-size: 12px;
+border-radius: 10px;
+padding: 0 10px;
+box-sizing: border-box;
+outline: none;
+color: white;
+cursor: pointer;
+}
+ input{align-items: center}
+                  
+.submit-btn{position: relative;}
